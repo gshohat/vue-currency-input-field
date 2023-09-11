@@ -1,0 +1,45 @@
+{
+  "name": "vue-currency-input-field",
+  "version": "1.0.3",
+  "author": "Gilad Shohat",
+  "description": "Vue <input/> component for formatting currency and numbers",
+  "homepage": "https://github.com/gshohat/vue-currency-input-field#readme",
+  "license": "MIT",
+  "main": "./dist/currency-input-field.umd.js",
+  "module": "./dist/currency-input-field.es.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/currency-input-field.es.js",
+      "require": "./dist/currency-input-field.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "path": "^0.12.7",
+    "vite": "^4.4.6"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "component",
+    "currency",
+    "form",
+    "field",
+    "number",
+    "input",
+    "intl",
+    "locale"
+  ]
+}
