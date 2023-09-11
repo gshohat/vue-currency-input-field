@@ -1,6 +1,6 @@
 {
   "name": "vue-currency-input-field",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Gilad Shohat",
   "description": "Vue <input/> component for formatting currency and numbers",
   "homepage": "https://github.com/gshohat/vue-currency-input-field#readme",
